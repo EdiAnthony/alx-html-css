@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: #222;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('test.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.hero .tags span {
+    background: #444;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hero button {
+    background: #ff1493;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pros {
+    background: linear-gradient(180deg, #111 0%, #002244 100%);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.pros h2 {
+    margin-bottom: 40px;
+}
+
+.pros .profiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pros .profile {
+    text-align: center;
+    max-width: 200px;
+}
+
+.pros .profile img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.pros .profile p {
+    margin: 5px 0;
+}
+
+.testimonial {
+    background: #9400d3;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.testimonial p {
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.popular-tutorials {
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    color: #000;
+}
+
+.popular-tutorials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.popular-tutorials .tutorials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.free-membership {
+    background: rgba(2, 21, 45, 0.918);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+.free-membership h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.free-membership .membership-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.free-membership .membership-details .detail {
+    max-width: 200px;
+}
+
+.free-membership .membership-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.faq {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .questions {
+    display: flex; /* Enable flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+  }
+  
+  .row1, .row2 {
+    display: flex; /* Enable flexbox for rows */
+    justify-content: space-between; /* Distribute questions evenly */
+  }
+  
+  .question {
+    width: 45%; /* Adjust width as needed for columns */
+    margin-bottom: 20px;
+  }
+  
+  .question h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .question p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    background-color: #333; 
+    border-radius: 50%; 
+    height: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.social-links a i {
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+  .social-links a:hover {
+    color: #ddd; 
+  }
+  
+.profile-picture {
+    display: inline-block; /* Keep inline behavior */
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    object-fit: cover;
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.testimonial-text {
+    display: inline-block; 
+    vertical-align: middle; 
+    padding-bottom: 200px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+.popular-tutorials .tutorial-info .tutor-details {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .tutor-details{
+    padding-left: 75px;
+  }
+  
+  .popular-tutorials .tutorial-info .tutor-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .popular-tutorials .rating {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(174, 110, 165)
+  }
+  
+  .popular-tutorials .rating i {
+    margin-right: 2px;
+  }
+  
