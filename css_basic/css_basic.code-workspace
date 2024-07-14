@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "css_basic",
+			"path": "."
+		},
+		{
+			"name": "html_basic",
+			"path": "../html_basic"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_basic"
+	}
+}
